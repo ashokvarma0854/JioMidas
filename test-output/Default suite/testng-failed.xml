@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.CalculatorTests">
+        <methods>
+          <include name="testClearFunctionality"/>
+          <include name="testDecimalSubtractionNegativeResult"/>
+          <include name="testHandlingDivisionByZero"/>
+          <include name="testMultiplicationOperation"/>
+          <include name="testResultOutOfRange"/>
+          <include name="testDecimalAddition"/>
+          <include name="testDecimalDivisionLeadingZero"/>
+          <include name="testDecimalSubtractionLeadingZero"/>
+          <include name="testBasicDivision"/>
+          <include name="setUp"/>
+          <include name="testDecimalMultiplication"/>
+          <include name="testDecimalSubtraction"/>
+          <include name="testBasicAddition"/>
+          <include name="testDecimalMultiplicationLeadingZero"/>
+          <include name="testDecimalAdditionLeadingZero"/>
+          <include name="tearDown"/>
+          <include name="testDecimalDivision"/>
+          <include name="testSubtractionOperation"/>
+        </methods>
+      </class> <!-- tests.CalculatorTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
