@@ -3,28 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CalculatorTests">
+      <class name="com.jio.runner.TestRunner">
         <methods>
-          <include name="testClearFunctionality"/>
-          <include name="testDecimalSubtractionNegativeResult"/>
-          <include name="testHandlingDivisionByZero"/>
-          <include name="testMultiplicationOperation"/>
-          <include name="testResultOutOfRange"/>
-          <include name="testDecimalAddition"/>
-          <include name="testDecimalDivisionLeadingZero"/>
-          <include name="testDecimalSubtractionLeadingZero"/>
-          <include name="testBasicDivision"/>
-          <include name="setUp"/>
-          <include name="testDecimalMultiplication"/>
-          <include name="testDecimalSubtraction"/>
-          <include name="testBasicAddition"/>
-          <include name="testDecimalMultiplicationLeadingZero"/>
-          <include name="testDecimalAdditionLeadingZero"/>
-          <include name="tearDown"/>
-          <include name="testDecimalDivision"/>
-          <include name="testSubtractionOperation"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- tests.CalculatorTests -->
+      </class> <!-- com.jio.runner.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
